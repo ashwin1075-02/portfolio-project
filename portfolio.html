@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin:0px;
+                padding: 0px;
+            }
+            header{
+                position:sticky;
+                top:0px;
+            }
+            .nav{
+                border:2px solid black; 
+                height: 7vh; 
+                width: 100vw;
+                display:flex;
+                align-items: center; 
+                background-color: black; 
+            }
+            h2{
+                color:white;
+                font-style: italic;
+                margin-left:20px;
+            }
+            ul{
+                margin-left: 35vw;
+            }
+            .nav ul li{
+                list-style: none;
+                display: inline;
+                color: white;
+                margin-left: 80px;
+            }
+            .main{
+                border:2px solid black;
+                height: 170vh;
+                width: 100vw;
+                background-image: url(image.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            pre{
+                font-size: 20px;
+                font-weight: 10px;
+                font-style: italic;
+                margin-top: 40px;
+
+                color: beige;
+
+            }
+        section{
+            border:2px solid lch(100% 0.01 296.81 / 0.849);
+            height: 40vh;
+            width: 100vw;
+            background-color: #ffffffdd;
+            display: flex;
+            align-items: center;
+            justify-items: centre;
+            animation: bird 2s ease-in-out 2s infinite ;
+        }
+        img{
+            height: 60px;
+            width: 80px;
+            object-fit: cover;
+        }
+        @keyframes bird {
+            from{
+                background-color: white;
+            }
+            to{
+                background-color: white;
+                transform: translateX(100vw);
+            }
+            
+        } 
+        .container{
+            min-height: 40vh;
+            width: 100vw;
+            border:2px solid black;
+            background-color: black;
+            /* display:flex;
+            justify-content: center; */
+            
+        }
+        h3{
+            color: white;
+            font-style: italic;
+            text-transform: uppercase;
+            text-decoration: underline;  
+            text-align: center;    
+        }
+        .box1{  
+                margin-left:10px;
+                margin-top:40px;
+                height: 150px;
+                width: 160px;
+                border: 2px solid white;
+                border-radius: 7px;
+                color: white;
+                font-style: italic;
+                font-size: large;
+                box-shadow: 0px 0px 5px 5px rgb(185, 239, 102);
+
+        }            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <h2>Ashwin.singh</h2>
+                <ul>
+                    <li>Experience</li>
+                    <li>Work</li>
+                    <li>Photography</li>
+                    <li>Contect</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <pre>I'm Ashwin singh
+
+
+                    A Software developer
+
+
+                in India
+                I'm probably the most passionate about developing the resposive website 
+                If you have a great project that needs some amazing skills, I'm your guy.
+            </pre>
+            </div>
+        </main>
+        <section>
+            <img src="image1.jpg">
+        </section>
+           <div class="container">
+            <h3>My work Experience</h3>
+            <div class="container1">
+            <div class="box1">   I have worked  in amezon for 2 year as a web devoloper</div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            </div>
+            </div>
+     
+
+
+    </body>
+    </html>
